@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1515042.yokenonline.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#4caf50"
+        android:textSize="30dp"
+        tools:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter UserID"
+        android:textColor="#4caf50"
+        android:textSize="20dp"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#4caf50"
+
+        android:textSize="20dp"
+        android:backgroundTint="#4caf50"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textColor="#4caf50"
+        android:textSize="20dp"
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#4caf50"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+
+        android:backgroundTint="#4caf50"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:backgroundTint="#4caf50"
+        android:textSize="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:backgroundTint="#4caf50"
+        />
+
+
+</LinearLayout>
